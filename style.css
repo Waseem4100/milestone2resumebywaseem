@@ -9,6 +9,17 @@ body:hover{
     background: linear-gradient(to left, hsl(197, 71%, 73%),hsl(120, 73%, 75%));
 
 }
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border:2px solid skyblue; 
+    box-shadow:0 4px 5px rgb(11, 230, 36);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
 h1{
     margin-left: 30%;
     align-items: left;
@@ -96,3 +107,19 @@ button{
     background: linear-gradient(to right, hsl(9, 88%, 29%),hsl(25, 89%, 48%))
 }
 
+#resumeoutput{
+    
+    max-width: 600px;
+    margin: auto;  
+    border: 2px solid black ;
+    border-radius: 8px;
+    box-shadow: 0px 0px 9px rgba(215, 0, 0, 0.1); 
+    
+} 
+
+#resumeoutputh2{
+    color: black;
+    margin-left:50% ;
+    margin-right: 50% ;
+    
+}

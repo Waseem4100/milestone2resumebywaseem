@@ -4,25 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>static resume builder</title>
+    <title>Static Resume builder</title>
 </head>
 <body>
     
-    <h1>Static Resume builder by  <br>Waseem Ahmed</h1>
-    <form>
+    <h1> Static Resume builder by  <br>Waseem Ahmed</h1>
+    
+    <form id="resumeform" >
         <fieldset>
             <legend> Personal information</legend>
+
+
             <label for="name" > Name :</label>
             <input type="text" id="name" required placeholder= "Enter your Name">
             <br>
-            <label for="father name"> Fathername :</label>
-            <input type="text" id="father name" required placeholder= "Enter Your Father Name">
-            <br>          
-            <label for="Emial" > Email :</label>
-            <input type="text" id="Emial" required placeholder= "Enter Your Email ">
+
+            <label for="fathername"> Fathername :</label>
+            <input type="text" id="fathername" required placeholder= "Enter Your Father Name">
             <br>
-            <label for="phone no"> Phone no :</label>
-            <input type="text"  id="phone no" required placeholder= "Enter Your Phone no">
+
+            <label for="emial" > Email :</label>
+            <input type="text" id="emial" required placeholder= "Enter Your Email ">
+            <br>
+
+            <label for="phone"> Phone no :</label>
+            <input type="number"  id="phone" required placeholder= "Enter Your Phone no" >
+            
+
+            <label for="profilePicture">Profile Picture</label>
+            <input type="file" id="profilePicture" name ="profilePicture"  required>
         </fieldset>
         <br>
 
@@ -45,7 +55,7 @@
         <fieldset>
 
             <legend>Skill</legend>
-            <label for="skill">Skill</label>
+            <label for="skill">Skills</label>
             <textarea name="skill" id="skill" rows="4" required placeholder= "Enter Your Skill"></textarea>
 
         </fieldset>  
@@ -57,6 +67,19 @@
         <button type="reset" id="reset-btn"> Reset Resume</button>
     
     </form>
+    <br>
+
+    <div id= "resumeoutput">
+       <!-- Resume will be generated here -->
+
+    </div><br>
+   
+    
+
+    <script src="index.js"></script>
+    
+    
+
     
 </body>
-</html>
+</html >
