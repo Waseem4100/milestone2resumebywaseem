@@ -1,0 +1,62 @@
+body{
+    font-family:  sans-serif, Arial, Helvetica, ;
+    margin: 0%;
+    padding: 0;
+    background: linear-gradient(to right, hsl(197, 96%, 45%),hsl(120, 73%, 75%));
+    
+    
+}
+h1{
+    margin-left: 30%;
+    align-items: left;
+    text-align: left;
+    font-size: 10fr;
+    font-weight: bolder;
+    
+}
+h1:hover{
+    text-shadow: 2px 0px 0px hsl(197, 96%, 45%), 0px 2px 2px rgb(122, 215, 230);
+}
+#Resume{
+    max-width: 600px;
+    border: 3px solid  no  ;
+    border-radius: 15px;
+    font-family:  sans-serif, Arial, Helvetica, ;
+    margin: 30px;
+    padding: 0;
+    box-shadow: 5px 2px 5px hsl(197, 96%, 45%) ;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+
+}
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid lightseagreen;
+    border-radius:500% ;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 30%;
+ 
+}
+
+
+
+
+#skill-btn{
+    background-color: rgb(28, 121, 157);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px rgb(28, 121, 157);
+}
